@@ -1,0 +1,15 @@
+/* Force a fixed height for the carousel */
+.carousel-inner {
+  height: 400px;       /* change to any height you want */
+  border-radius: 15px;
+  overflow: hidden;    /* crop image instead of stretching */
+}
+
+/* Make images fit the height properly */
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover !important;   /* maintain proportion */
+  object-position: center;
+  border-radius: 15px;
+}

@@ -1,0 +1,27 @@
+
+
+
+html,body,#__next { height:100%; }
+body { margin:0; font-family: system-ui, Arial, sans-serif; background:#DFC08E; }
+.product-img { width:100%; height:220px; object-fit:cover;  }
+.badge{
+    background-color:#DFC08E !important; 
+}
+.card {
+  background-color: #DFC08E;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.button{
+  background-color:#8B0A1A ;  
+  color:#DFC08E;
+}
+html, body {
+  background-color: #DFC08E; 
+ 
+}
