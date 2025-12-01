@@ -1,3 +1,4 @@
+'use client';
 // pages/index.js
 import Link from "next/link";
 import Carousel from "./components/Carousel"
