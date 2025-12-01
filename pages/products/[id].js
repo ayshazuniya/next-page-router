@@ -1,5 +1,5 @@
 // pages/products/[id].js
-import AddToCart from '../../components/AddToCart';
+import AddToCart from '../components/AddToCart';
 import { products } from '../../data/products';
 
 export async function getStaticPaths() {
